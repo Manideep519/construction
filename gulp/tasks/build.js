@@ -20,11 +20,11 @@ gulp.task('useref', function(){
 
 gulp.task('imageMin', function(){
 	console.log("Optimizing Images");
-	return gulp.src('app/img/**/*.+(png|jpg|gif|svg)')
+	return gulp.src('app/images/**/*.+(png|jpg|gif|svg)')
 	.pipe(cache(imageMin({
 		interlaced:true
 	})))
-	.pipe(gulp.dest('docs/img'))
+	.pipe(gulp.dest('docs/images'))
 });
 
 

@@ -1,0 +1,31 @@
+.header{
+
+	&__banner{
+		height: 4rem;
+		font-size: 1.5rem;
+		padding: 1rem 0;
+		background-color: #fecb10;
+
+		a{
+			text-decoration: none;
+			color: #000;
+		}
+
+		&--tel{
+			padding-right: 1.5rem;
+		}
+
+		&--icons{
+			float: right;
+			@mixin hide;
+
+			@media (min-width: 530px){
+				@mixin visible;
+			}
+
+			& > i:not(:first-child){
+				padding-left: 2rem;
+			}
+		}
+	}
+}

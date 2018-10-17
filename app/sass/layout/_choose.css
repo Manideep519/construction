@@ -1,0 +1,13 @@
+.choose{
+	padding: 5rem 0;
+	background-color: #f5f4ef;
+
+	&__feature-box{
+		text-align: center;
+	}
+
+	&__feature-box--img{
+		margin-bottom: 1.5rem;
+	}
+
+}

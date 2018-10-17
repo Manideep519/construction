@@ -1,0 +1,54 @@
+.nav{
+	background-color: #222534;
+
+	&__wrapper{
+		height: 8rem;
+		display: flex;
+		align-items: center;
+	}
+
+	&__logo{
+		margin-right: auto;
+
+		a{text-decoration: none;}
+
+		&--name{
+			font-size: 4.3rem;
+			font-weight: 900;
+			color: #ff0000;
+		}
+	}
+
+	&__bar{
+		display: none;
+		visibility: hidden;
+		opacity: 0;
+
+		@mixin at900{
+			display: block;
+			visibility: visible;
+			opacity: 1;
+		}
+
+		ul{
+			font-size: 1.5rem;
+			list-style-type: none;
+		}
+
+		li{display: inline-block;}
+
+		a{
+			display: inline-block;
+			text-decoration: none;
+			padding: 2rem;
+			margin-right: 2rem;
+			color: #fff;
+			border-bottom: 2px solid transparent;
+			transition: all .2s ease-out;
+
+			&:hover{
+				border-bottom: 2px solid #aaa;
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+.about{
+	padding: 5rem 0;
+
+	&__img{
+		@mixin hide;
+
+		@media (min-width: 900px){
+			@mixin visible;
+			width: 80%;
+			float: right;
+			border-radius: 1rem;
+		}
+	}
+}

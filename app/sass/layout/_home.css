@@ -1,0 +1,14 @@
+.home{
+	background-image: linear-gradient(to top,rgba(0,0,0,.8),rgba(0,0,0,.8)),url(../images/home-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	position: relative;
+
+	&__center{
+		text-align: center;
+		width: 100%;
+		@mixin center;
+	}
+}

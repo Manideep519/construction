@@ -1,0 +1,25 @@
+.contact-form{
+	padding: 5rem 0;
+	background-color: #fdb41a;
+
+
+	&__input{
+		margin: 0 auto;
+
+		input[type=email], input[type=text], input[type=submit]{
+			font-size: 1.2rem;
+			margin-bottom: 1rem;
+			width: 90%;
+			padding: 1.5rem;
+			border-radius: 1rem;
+			border: none;
+			outline: none;
+			box-shadow: none;
+		}
+
+		input[type=submit]{
+			background-color: #000;
+			color: #fff;
+		}
+	}
+}
