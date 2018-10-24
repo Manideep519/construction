@@ -26,14 +26,14 @@
 	&__links{
 		text-decoration: none;
 		color: #fff;
-		font-size: 2rem;
+		font-size: 1.6rem;
 		display: block;
 
 		&:not(:last-child){ margin-bottom: 1rem; }
 	}
 
 	&__items{
-		font-size: 2rem;
+		font-size: 1.6rem;
 		&:not(:last-child){
 			margin-bottom: 1rem;
 		}
@@ -44,11 +44,8 @@
 		& a{
 			text-decoration: none;
 			color: #fff;
-			font-size: 2rem;
+			font-size: 1.6rem;
 			display: inline-block;
 		}
 	}
-
-
-
 }

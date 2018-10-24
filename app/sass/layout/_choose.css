@@ -1,9 +1,10 @@
 .choose{
 	padding: 5rem 0;
-	background-color: #f5f4ef;
+	background-color: $light-grey-choose;
 
 	&__feature-box{
 		text-align: center;
+		margin-bottom: 2rem;
 	}
 
 	&__feature-box--img{

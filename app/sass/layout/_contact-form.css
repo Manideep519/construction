@@ -1,6 +1,6 @@
 .contact-form{
 	padding: 5rem 0;
-	background-color: #fdb41a;
+	background-color: $dark-yello-contact-form;
 
 
 	&__input{

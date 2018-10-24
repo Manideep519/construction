@@ -1,11 +1,14 @@
 .heading{
 	margin: 0;
+	color: $heading-light-black;
+	font-family: 'Lato', sans-serif;
 }
 
 .info{
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 700;
-	color: #979797;
+	color: $info-light-grey;
 }
 
 .home{
@@ -25,12 +28,13 @@
 		@media (min-width: 400px){ font-size: 4rem; }
 		
 		@mixin at1024{
-			font-size: 6rem;
+			font-size: 5rem;
+			letter-spacing: .2rem;
 		}
 	}
 
 	&__heading--big-white{color: #fff;}
-	&__heading--big-yellow{color: #fecb10;}
+	&__heading--big-yellow{color: $primary-color;}
 
 	&__info{
 		margin: 0 auto;
@@ -50,8 +54,7 @@
 	&__heading--yellow{
 		font-size: 3rem;
 		font-weight: 900;
-		/*line-height: 0;*/
-		color: #fecb10;
+		color: $primary-color;
 
 		@media (min-width: 710px){font-size: 4rem;}
 	}
@@ -129,14 +132,18 @@
 		margin-bottom: 2rem;
 	}
 
-	&__info{ text-align: center;}
+	&__info{
+		text-align: center;
+		margin-bottom: 3rem;
+
+	}
 }
 
 
 .contact-form{
 
 	&__text{
-		color: #1a1c28;
+		color: $heading-light-black;
 		margin: 0 auto;
 		text-align: center;
 		margin-bottom: 2rem;
@@ -160,15 +167,17 @@
 	color: #fff;
 
 	&__heading{
-		font-size: 3rem;
+		font-size: 2rem;
 		margin-bottom: 1rem;
+		color: #fff;
 
 		@media (min-width: 1024px){
-			margin-bottom: 4rem;
+			margin-bottom: 2rem;
 		}
 	}
 
 	&__info{
-		font-size: 2rem;
+		color: #fff;
+		font-size: 1.6rem;
 	}
 }

@@ -5,6 +5,12 @@
 
 	&__img{
 		margin-bottom: 2rem;
+		width: 100%;
+
+		@media (min-width: 500px){
+			width: auto;
+		}
+
 	}
 
 	&__box > div{

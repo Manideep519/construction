@@ -1,4 +1,45 @@
 .testimonials{
 	padding: 5rem 0;
-	background-color: #e3e3e3;
+	background-color: $dark-grey-testimonials;
+
+
+	&__review-box{
+		max-width: 40rem;
+		max-height: 50rem;
+		background-color: $primary-color;
+		margin: 0 auto;
+		border-radius: 2rem;
+		padding: 4rem 0;
+
+		&-msg {
+			color: #1a1c28;
+			text-align: center;
+			padding: 4rem;
+			margin: 0 auto;
+			padding-bottom: 6rem;
+			position: relative;
+			line-height: 2rem;
+			position: relative;
+		}
+
+		span{
+			display: inline-block;
+			font-size: 7rem;
+			text-align: left
+		}
+		span:last-child{
+			position: relative;
+			top: 3rem;
+			display: block;
+			text-align: right;
+		}
+
+		&-name{
+			color: #1a1c28;
+			margin-top: -4rem;
+			font-size: 2rem ;
+			text-align: center;
+			font-weight: bold;
+		}
+	}
 }
